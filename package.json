@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "vercel-build": "pnpm rebuild bcrypt && pnpm run build",
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start"
